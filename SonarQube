@@ -1,0 +1,10 @@
+Step1: Download sonarQube from link:  https://www.sonarqube.org/
+Step2: Check supported the java version by sonarQube and download the java jdk from link: https://www.oracle.com/java/technologies/downloads/#java17
+Step3: Use CMD to go to sonarQube dir, launch StartSonar.bat
+Step4: Go to localhost:9000
+Step5: Sign in with default login username:admin, pw:admin, download sonar scanner from link: https://docs.sonarsource.com/sonarqube/10.1/analyzing-source-code/scanners/sonarscanner/
+Step6: Add sonarScaner/bin to system env path
+Step7: Create project
+Step8: Use CMD/terminal to go to project dir
+Step9: Paste the execute code into the terminal
+
