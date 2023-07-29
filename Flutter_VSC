@@ -1,0 +1,10 @@
+Official Installation Doc: https://docs.flutter.dev/tools/vs-code
+Flutter Windows installation doc: https://docs.flutter.dev/get-started/install/windows
+
+
+Step 1: Install Flutter extension (comes with dart)
+Step 2: View > Command Palette> type: 'doctor' > resolve any issue 
+//If flutter doctor -v doenst work, run it on CMD as admin
+Step 3: Install Flutter and add to env path
+Step 4: Install Android Studio, launch once
+Step 5: Install Visual Studio "Desktop Dev with C++"
