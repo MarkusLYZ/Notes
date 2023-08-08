@@ -1,3 +1,4 @@
 Model: 
 1. create a public class with private variables
 2. generate constructors
+3. generate getter and setter for all variables
