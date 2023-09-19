@@ -12,4 +12,7 @@ Error Log:
     Occurance: Flutter frontend passes Lobby object to Spring boot controller, which only accepts body in Json when @RequestBody is used
     Temp Solution: Remove @RequestBody
     Solution: Map parameters to body
+2. Error: assertThat() is not resolved
+    Solution: Static import of the assertJ library and NOT the junit.assertThat();
+    import static org.assertj.core.api.Assertions.assertThat;
     
