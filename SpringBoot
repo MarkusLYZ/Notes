@@ -1,1 +1,7 @@
 Set Up: https://hevodata.com/learn/spring-boot-rest-api/#2
+
+Unit Test packages:
+1. assertj 3.24.2
+2. junit 5.9.3
+3. mockito 5.3.1
+4. h2database(not in springboot)
