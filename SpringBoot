@@ -5,3 +5,11 @@ Unit Test packages:
 2. junit 5.9.3
 3. mockito 5.3.1
 4. h2database(not in springboot)
+
+Error Log:
+1. Error: Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: 
+    Content-Type 'application/x-www-form-urlencoded;charset=utf-8' is not supported]
+    Occurance: Flutter frontend passes Lobby object to Spring boot controller, which only accepts body in Json when @RequestBody is used
+    Temp Solution: Remove @RequestBody
+    Solution: Map parameters to body
+    
